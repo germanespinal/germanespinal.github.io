@@ -1,1 +1,0 @@
-# germanespinal.github.io
