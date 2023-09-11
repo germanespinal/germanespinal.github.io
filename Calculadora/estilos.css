@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #531010;
+    color:#c44d25;
+    background-image: url(fondo.jpg);
+}
+
+.contenedor{
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background :#eee5e9;
+    padding: 20px;  
+}
+
+form p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn{
+    margin: 0 auto;
+    width: 18%;
+    background:#cf5c36;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 18px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.suma{
+    background:#000;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.suma:hover{
+    background: #5273;
+    color: #000;
+}
+
+.resta{
+    background: crimson;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.resta:hover{
+    background: #223522;
+    color: aqua;
+}
+
+.multi{
+    background: salmon;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.multi:hover{
+    background: #7554;
+    color: slateblue;
+}
+
+.divi{
+    background: saddlebrown;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.divi:hover{
+    background: crimson;
+    color:#fff;
+}
+
+.residuo{
+    background: #5727;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.residuo:hover{
+    background: #7585;
+    color: aqua;
+}
