@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000 url('Fotos/luna.png'); /* Reemplaza 'luna.png' con la imagen de la luna */
+    background-size: 700px; /* Ajusta el tamaño de la luna según tus necesidades */
+    animation: moveMoon 10s linear infinite alternate;
+}
+
+
+h1 {
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+    color: #ccc; 
+    margin: 9px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 10px;
+    flex: 1;
+    width: calc(50% - 20px);
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff6e;
+    border: 1px solid #ccc; /* Borde gris */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+}
+
+li:hover {
+    background-color: #aa2424; /* Color de fondo café al pasar el ratón */
+    color: #fff; /* Color de texto blanco al pasar el ratón */
+}
+
+.casita {
+    position: fixed;
+    top: 20px; 
+    left: 20px;
+    width: 30px; 
+    height: 30px;
+    background: url('Fotos/casa.png') no-repeat center center; 
+    background-size: cover;
+    display: block;
+    text-indent: -9999px; 
+    z-index: 9999;
+}
+
+.casita:hover {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
