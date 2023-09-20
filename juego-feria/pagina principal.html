@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal de Juegos</title>
+<style>
+  body {
+    background-color: #f7caca;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos horizontalmente */
+    margin-top: 20px; /* Espacio en la parte superior de la página */
+  }
+
+  .game-button1,
+  .game-button2,
+  .game-button3 {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0; /* Espacio entre los botones */
+    border-radius: 5px;
+  }
+
+  .game-button:hover {
+    background-color: #ff5733;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos horizontalmente */
+  }
+
+  .img-container img {
+    max-width: 300px; /* Tamaño máximo de la imagen */
+  }
+
+</style>
+</head>
+<body>
+  <h1>Portal de Juegos Gamer</h1>
+  <div class="game-container">
+    <div class="img-container">
+      <img src="p5.jpg" alt="">
+      <a href="juego1.html" class="game-button1">Seleccionar Juego 1</a>
+    </div>
+
+    <div class="img-container">
+      <img src="p4.jpg" alt="">
+      <a href="juego-feria2/juego2.html" class="game-button2">Seleccionar Juego 2</a>
+    </div>
+
+    <div class="img-container">
+      <img src="Juego de preguntas/img/imagen0.jpeg" alt="">
+      <a href="Juego de preguntas/juego.html" class="game-button3">Seleccionar Juego 3</a>
+    </div>
+  </div>
+</body>
+</html>
