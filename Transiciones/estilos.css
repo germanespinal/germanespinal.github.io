@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    border: 3px solid;
+    margin: 0 auto;
+}
+
+
+.element{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    margin: 20px;
+
+   /* transition: clip-path 2s,
+                transform 1s;*/
+    
+     clip-path: circle(80%);  
+
+     /* transition-property:clip-path,
+    transform, background-color;
+    transition-duration: 3000ms;
+    transition-timing-function:cubic-bezier(0,1.03,1,.18);
+    transition-delay:0s, 1s; */
+
+    transition: clip-path 2s cubic-bezier(0,1.03,1,.18);
+}
+
+.container:hover .element{
+    clip-path: circle(20%);
+    transform: translate(100%);
+    background: #000;
+}
